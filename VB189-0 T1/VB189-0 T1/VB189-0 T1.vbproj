@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E8C2B87D-71F8-488E-BCCA-5320546DD7E2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>VB189_0_T1.My.MyApplication</StartupObject>
+    <RootNamespace>VB189_0_T1</RootNamespace>
+    <AssemblyName>VB189-0 T1</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>VB189-0 T1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>VB189-0 T1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frm10.Designer.vb">
+      <DependentUpon>frm10.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frm10.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmJob6.Designer.vb">
+      <DependentUpon>frmJob6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmJob6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLab5.Designer.vb">
+      <DependentUpon>frmLab5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLab5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlab7.Designer.vb">
+      <DependentUpon>frmlab7.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmlab7.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmmainvb.Designer.vb">
+      <DependentUpon>Frmmainvb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frmmainvb.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmpractice6.Designer.vb">
+      <DependentUpon>frmpractice6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmpractice6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLab8.Designer.vb">
+      <DependentUpon>frmLab8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLab8.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlab3.Designer.vb">
+      <DependentUpon>frmlab3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmlab3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlab1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlab1.Designer.vb">
+      <DependentUpon>frmlab1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mid9.Designer.vb">
+      <DependentUpon>Mid9.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mid9.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Salary1.Designer.vb">
+      <DependentUpon>Salary1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Salary1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlab2.Designer.vb">
+      <DependentUpon>frmlab2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmlab2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmJob4.Designer.vb">
+      <DependentUpon>frmJob4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmJob4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frm10.resx">
+      <DependentUpon>frm10.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmJob4.resx">
+      <DependentUpon>frmJob4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmJob6.resx">
+      <DependentUpon>frmJob6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLab5.resx">
+      <DependentUpon>frmLab5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmlab7.resx">
+      <DependentUpon>frmlab7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmmainvb.resx">
+      <DependentUpon>Frmmainvb.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmpractice6.resx">
+      <DependentUpon>frmpractice6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLab8.resx">
+      <DependentUpon>frmLab8.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmlab3.resx">
+      <DependentUpon>frmlab3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmlab1.resx">
+      <DependentUpon>frmlab1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mid9.resx">
+      <DependentUpon>Mid9.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Salary1.resx">
+      <DependentUpon>Salary1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmlab2.resx">
+      <DependentUpon>frmlab2.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fortnite-art.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-envelope.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-envelope %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-envelope %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-envelope %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-envelope %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-envelope %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-envelope %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-envelope %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-envelope %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-envelope %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-envelope %2810%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-envelope %2811%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-envelope %2812%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-envelope %2813%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-envelope1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\broken-heart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Netflix.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Sort_Up.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Drunk.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Brazil.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Lotus_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Lotus_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Crab_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Confectionery_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Comet_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Comedy_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Calendar_9_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Aperture_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Apple_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Animation_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Alien_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_No_Chat_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Vegan_Symbol_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Occupied_Theatre_Seat_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Vomited_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Minecraft_Pickaxe_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Minecraft_Shovel_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Minecraft_Sword_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Pokemon_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Bug_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Lightning_Bolt_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Process_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Spa_Flower_16px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Handshake_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Spa_Flower_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Paint_Palette_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_account_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Play_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Wi-Fi_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Person_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Chat_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Heart_Outline_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maintenance_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Male Stroke V_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Female_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Male User_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Autumn_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Private_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Natural User Interface 1_16px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add to Favorites_16px.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

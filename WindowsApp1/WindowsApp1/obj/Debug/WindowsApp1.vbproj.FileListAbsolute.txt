@@ -1,0 +1,12 @@
+D:\A1 Sittikon\WindowsApp1\WindowsApp1\bin\Debug\WindowsApp1.exe.config
+D:\A1 Sittikon\WindowsApp1\WindowsApp1\bin\Debug\WindowsApp1.exe
+D:\A1 Sittikon\WindowsApp1\WindowsApp1\bin\Debug\WindowsApp1.pdb
+D:\A1 Sittikon\WindowsApp1\WindowsApp1\bin\Debug\WindowsApp1.xml
+D:\A1 Sittikon\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.vbprojAssemblyReference.cache
+D:\A1 Sittikon\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Resources.resources
+D:\A1 Sittikon\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.vbproj.GenerateResource.cache
+D:\A1 Sittikon\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.vbproj.CoreCompileInputs.cache
+D:\A1 Sittikon\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.exe
+D:\A1 Sittikon\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.xml
+D:\A1 Sittikon\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.pdb
+D:\A1 Sittikon\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Form1.resources
